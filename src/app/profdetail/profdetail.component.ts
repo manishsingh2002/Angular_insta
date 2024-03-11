@@ -7,6 +7,6 @@ import { instagramResponse } from '../instajason';
   styleUrl: './profdetail.component.css',
 })
 export class ProfdetailComponent {
-  @Input() abc: any;
+  @Input() profile_detail: any;
   profdetail = [...instagramResponse.data];
 }
