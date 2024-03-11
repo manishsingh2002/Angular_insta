@@ -1,7 +1,14 @@
 <div class="card">
   <div class="detail" *ngFor="let details of profdetail">
     <div class="like" *ngIf="details.user.id === profile_detail">
-      {{ details.likes.count }}
+      <div class="comments" *ngFor="let comment of details.comments.data">
+        <img
+          [src]="comment.from.profile_picture || 'default-profile.jpg'"
+          class="instagram-card-user-image"
+        />
+        <div class="com">{{ comment.text }}</div>
+        <div class="user">{{ comment.from.username }}</div>
+      </div>
     </div>
   </div>
 </div>

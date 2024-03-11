@@ -196,7 +196,7 @@ export const instagramResponse = {
         profile_picture:
           'https://i.pinimg.com/736x/3b/48/78/3b48788fa2cd37148efd77e26effb0f4.jpg',
         id: '290825035',
-        full_name: '',
+        full_name: 'manish singh',
       },
     },
     {
@@ -584,7 +584,7 @@ export const instagramResponse = {
       user: {
         username: '49ers',
         profile_picture:
-          'https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xap1/t51.2885-19/10784805_820116174718705_328397595_a.jpg',
+          'https://i.pinimg.com/564x/79/a3/63/79a3638593036a4ecf3cde3d8009e928.jpg',
         id: '23435633',
         full_name: 'San Francisco 49ers',
       },
@@ -780,7 +780,7 @@ export const instagramResponse = {
       user: {
         username: 'belindapop',
         profile_picture:
-          'https://scontent.cdninstagram.com/hphotos-xpf1/t51.2885-19/924647_855514301158164_215057745_a.jpg',
+          'https://i.pinimg.com/564x/7b/36/ab/7b36abf76c34dacfef9aca56ccae109d.jpg',
         id: '17399094',
         full_name: 'Beli',
       },
@@ -962,7 +962,7 @@ export const instagramResponse = {
       user: {
         username: 'crtwotwo',
         profile_picture:
-          'https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/11230503_571796462960846_2117053725_a.jpg',
+          'https://i.pinimg.com/564x/d1/f9/70/d1f970f4d80392abb5fb372bc2c826d7.jpg',
         id: '15441699',
         full_name: 'Chad Reed',
       },
@@ -1158,7 +1158,7 @@ export const instagramResponse = {
       user: {
         username: 'baifernbah',
         profile_picture:
-          'https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10349712_426225390882710_1613663242_a.jpg',
+          'https://i.pinimg.com/564x/d1/f9/70/d1f970f4d80392abb5fb372bc2c826d7.jpg',
         id: '14191865',
         full_name: 'baifernbah',
       },
@@ -1329,7 +1329,7 @@ export const instagramResponse = {
         from: {
           username: 'nickyjampr',
           profile_picture:
-            'https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/11333359_992950590745022_254018987_a.jpg',
+            'https://i.pinimg.com/originals/95/2b/cb/952bcb5a49d9e675491bfa0b203dc935.jpg',
           id: '55795588',
           full_name: 'NICKY JAM',
         },
@@ -1340,7 +1340,7 @@ export const instagramResponse = {
       user: {
         username: 'nickyjampr',
         profile_picture:
-          'https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/11333359_992950590745022_254018987_a.jpg',
+          'https://i.pinimg.com/564x/fe/81/c8/fe81c87f8a738e9bef039e2d4f300641.jpg',
         id: '55795588',
         full_name: 'NICKY JAM',
       },
@@ -1562,7 +1562,7 @@ export const instagramResponse = {
       user: {
         username: 'forever21',
         profile_picture:
-          'https://igcdn-photos-f-a.akamaihd.net/hphotos-ak-xpt1/t51.2885-19/1391132_770482496346869_1929750985_a.jpg',
+          'https://i.pinimg.com/564x/9f/39/4f/9f394f3495f1e00924024775586df11d.jpg',
         id: '11707579',
         full_name: 'forever21',
       },
@@ -1744,7 +1744,7 @@ export const instagramResponse = {
       user: {
         username: 'natgeo',
         profile_picture:
-          'https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/11349315_1620970341492406_1971976479_a.jpg',
+          'https://i.pinimg.com/564x/ff/89/f1/ff89f12c12b563078d4fe062157256ad.jpg',
         id: '787132',
         full_name: 'National Geographic',
       },
@@ -1942,7 +1942,7 @@ export const instagramResponse = {
       user: {
         username: 'yenikoymotors',
         profile_picture:
-          'https://igcdn-photos-g-a.akamaihd.net/hphotos-ak-xfa1/t51.2885-19/11351636_1458075654485798_648102951_a.jpg',
+          'https://i.pinimg.com/564x/6c/2e/65/6c2e65268309d651c95276a866bde46d.jpg',
         id: '261460624',
         full_name: 'Yenikoy Motors',
       },
@@ -2113,7 +2113,7 @@ export const instagramResponse = {
       user: {
         username: 'karikaturhane',
         profile_picture:
-          'https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xfp1/t51.2885-19/10985974_431413690361385_360940966_a.jpg',
+          'https://i.pinimg.com/564x/6c/2e/65/6c2e65268309d651c95276a866bde46d.jpg',
         id: '297635578',
         full_name: 'Karikatür',
       },
@@ -2284,7 +2284,7 @@ export const instagramResponse = {
         from: {
           username: 'piercethevic',
           profile_picture:
-            'https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11849040_770071126437656_779284544_a.jpg',
+            '           https://i.pinimg.com/564x/74/37/89/74378930719d0bd2663d30d695c57063.jpg',
           id: '581087',
           full_name: 'Vic Fuentes',
         },
@@ -2295,7 +2295,7 @@ export const instagramResponse = {
       user: {
         username: 'piercethevic',
         profile_picture:
-          'https://igcdn-photos-a-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11849040_770071126437656_779284544_a.jpg',
+          'https://i.pinimg.com/564x/e1/6b/ff/e16bfff321229e2ac7e80872a445c3fb.jpg',
         id: '581087',
         full_name: 'Vic Fuentes',
       },
@@ -2466,7 +2466,7 @@ export const instagramResponse = {
       user: {
         username: 'hillaryclinton',
         profile_picture:
-          'https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/s150x150/11820691_1451677718473497_1023799471_a.jpg',
+          'https://i.pinimg.com/564x/fe/81/c8/fe81c87f8a738e9bef039e2d4f300641.jpg',
         id: '1834271085',
         full_name: 'Hillary Clinton',
       },

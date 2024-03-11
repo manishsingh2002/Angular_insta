@@ -9,18 +9,4 @@ import { instagramResponse } from '../instajason';
 })
 export class CardComponent {
   carddata = [...instagramResponse.data];
-  // user_profile = [...instagramResponse.data];
-  //   img() {
-  //     return this.carddata.forEach((data) => {
-  //       data.comments.data.forEach((ele) => {
-  //         ele.from.profile_picture;
-  //       });
-  //     });
-  //   }
 }
-
-// <ul>
-//   <li *ngFor="let post of carddata">
-//     <h3>{{ post.comments.data[0].created_time }}</h3>
-//   </li>
-// </ul>

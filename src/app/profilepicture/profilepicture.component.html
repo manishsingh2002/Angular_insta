@@ -1,27 +1,44 @@
-<p>profilepicture works!</p>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="instagram-card col-md-4" *ngFor="let profile of profile">
+        <div class="instagram-card-header">
+          <img
+            [src]="profile.user.profile_picture || 'default-profile.jpg'"
+            class="instagram-card-user-image"
+          />
+          <a
+            class="instagram-card-user-name"
+            href="https://www.instagram.com/followmeto/"
+            >{{ profile.user.username }}</a
+          >
+          <div class="instagram-card-time">0</div>
+        </div>
 
-<div class="grid">
-  <div class="grid__item" *ngFor="let profile of profile">
-    <div class="card">
-      <img
-        class="card__img"
-        [src]="profile.user.profile_picture || 'default-profile.jpg'"
-      />
+        <div class="intagram-card-image">
+          <img
+            class="profile-image"
+            [src]="profile.user.profile_picture || 'default-profile.jpg'"
+            height="600px"
+          />
+        </div>
 
-      <div class="card__content">
-        <h1 class="card__header">{{ profile.user.username }}</h1>
-        <p class="card__text">
-          how are you please like my image
-          <strong>immersed</strong> in the amazing mountain range of Aspen.
-        </p>
-        <button (click)="onClick()" class="card__btn">
-          lets see more <span>&rarr;</span>
-        </button>
+        <div class="instagram-card-content">
+          <p class="likes">
+            `❤️ {{ profile.likes.count }} 🫠💬{{ profile.comments.count }} 📫{{
+              300
+            }}`
+          </p>
+
+          <button (click)="onClick()" class="card__btn">
+            😎😎 <span>&rarr;</span>
+          </button>
+          <app-profdetail
+            *ngIf="appDetailShow"
+            [profile_detail]="profile.user.id"
+          ></app-profdetail>
+        </div>
       </div>
     </div>
-    <app-profdetail
-      *ngIf="appDetailShow"
-      [profile_detail]="profile.user.id"
-    ></app-profdetail>
   </div>
-</div>
+</body>

@@ -1,4 +1,4 @@
-*,
+/*/* *,
 *::before,
 *::after {
   margin: 0;
@@ -25,18 +25,34 @@ body {
   }
 }
 
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(25rem, 1fr)
+  );
+  grid-gap: 6rem; 
+  align-items: start;
+} 
 .grid {
   display: grid;
-  width: 50%;
-  grid-gap: 6rem;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 6rem; /* Adjust spacing between cards 
   align-items: start;
 }
+
 @media (max-width: 60em) {
   .grid {
     grid-gap: 3rem;
   }
 }
+
+/* @media (max-width: 60em) {
+  .grid {
+    grid-gap: 3rem;
+  }
+} 
+
 .grid__item {
   background-color: #fff;
   border-radius: 0.4rem;
@@ -50,17 +66,27 @@ body {
   box-shadow: 0 4rem 8rem rgba(0, 0, 0, 0.2);
 }
 
-.card__img {
+/* .card__img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+} 
+.card__img {
+  display: block;
+  width: 343.6px;
+  height: 343.6px;
+  object-fit: cover; /* Maintain aspect ratio 
 }
 .card__content {
-  padding: 3rem 3rem;
+  /* padding: 3rem; Adjust padding if needed 
+  width: 343.6px;
+  height: 243.6px;
+  /* Optional overflow handling (if needed): 
+  overflow-y: auto;
 }
 .card__header {
-  font-size: 3rem;
+  font-size: 20px;
   font-weight: 500;
   color: #0d0d0d;
   margin-bottom: 1.5rem;
@@ -74,8 +100,8 @@ body {
 }
 .card__btn {
   display: block;
-  width: 100%;
-  padding: 1.5rem;
+  width: 300px;
+  padding: 0.5rem, 5rem 0.5rem 0.5rem;
   font-size: 2rem;
   text-align: center;
   color: #3363ff;
@@ -96,4 +122,102 @@ body {
 .card__btn:hover span,
 .card__btn:active span {
   margin-left: 1.5rem;
+} */
+body {
+  background-color: #fafafa;
+  padding: 60px;
+  font-family: "Droid Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.instagram-card {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.instagram-card-header {
+  padding: 20px;
+  height: 40px;
+}
+
+.instagram-card-user-image {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+.instagram-card-time {
+  float: right;
+  width: 80px;
+  padding-top: 10px;
+  text-align: right;
+  color: #999;
+}
+
+.instagram-card-user-name {
+  margin-left: 20px;
+  font-weight: bold;
+  color: #262626;
+}
+
+.instagram-card-content {
+  padding: 20px;
+}
+
+.likes {
+  font-weight: bold;
+}
+
+.instagram-card-content-user {
+  font-weight: bold;
+  color: #262626;
+}
+
+.hashtag {
+  color: #003569;
+}
+
+.comments {
+  color: #999;
+}
+
+.user-comment {
+  color: #003569;
+}
+
+.instagram-card-footer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.footer-action-icons {
+  font-size: 16px;
+  color: #ccc;
+}
+
+.comments-input {
+  border: none;
+  margin-left: 10px;
+  width: 100%;
+}
+.profile-image {
+  padding-top: 25px;
+  width: 400px;
+  height: 400px;
 }
