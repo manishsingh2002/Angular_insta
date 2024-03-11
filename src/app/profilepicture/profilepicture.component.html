@@ -14,9 +14,14 @@
           how are you please like my image
           <strong>immersed</strong> in the amazing mountain range of Aspen.
         </p>
-        <button class="card__btn">lets see more <span>&rarr;</span></button>
+        <button (click)="onClick()" class="card__btn">
+          lets see more <span>&rarr;</span>
+        </button>
       </div>
     </div>
-    <app-profdetail [profile_detail]="profile.user.id"></app-profdetail>
+    <app-profdetail
+      *ngIf="appDetailShow"
+      [profile_detail]="profile.user.id"
+    ></app-profdetail>
   </div>
 </div>

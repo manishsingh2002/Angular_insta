@@ -6,12 +6,10 @@ import { instagramResponse } from '../instajason';
   styleUrl: './profilepicture.component.css',
 })
 export class ProfilepictureComponent {
+  public appDetailShow = false;
+
+  onClick = () => {
+    this.appDetailShow = !this.appDetailShow;
+  };
   profile = [...instagramResponse.data];
 }
-// export class ParentComponent {
-//   showDetail = false;
-
-//   toggleDetail() {
-//     this.showDetail = !this.showDetail; // Toggle visibility on button click
-//   }
-// }
