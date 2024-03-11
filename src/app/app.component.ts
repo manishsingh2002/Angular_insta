@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { instagramResponse } from './instajason';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'instac';
+  postData = [...instagramResponse.data]; // Spread the data array
 }

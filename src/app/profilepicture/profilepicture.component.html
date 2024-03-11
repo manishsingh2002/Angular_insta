@@ -1,0 +1,21 @@
+<p>profilepicture works!</p>
+
+<div class="grid">
+  <div class="grid__item" *ngFor="let profile of profile">
+    <div class="card">
+      <img
+        class="card__img"
+        [src]="profile.user.profile_picture || 'default-profile.jpg'"
+      />
+      <div class="card__content">
+        <h1 class="card__header">{{ profile.user.username }}</h1>
+        <p class="card__text">
+          how are you please like my image
+          <strong>immersed</strong> in the amazing mountain range of Aspen.
+        </p>
+        <button class="card__btn">lets see more <span>&rarr;</span></button>
+      </div>
+    </div>
+    <app-profdetail [abc]="1234"></app-profdetail>
+  </div>
+</div>

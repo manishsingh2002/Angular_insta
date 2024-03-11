@@ -1,0 +1,7 @@
+<div class="card">
+  <div class="detail" *ngFor="let details of profdetail">
+    <div class="like" *ngIf="details.user.id === abc">
+      {{ details.likes.count }}
+    </div>
+  </div>
+</div>
